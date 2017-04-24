@@ -1,6 +1,6 @@
 # npmtest-object-hash
 
-#### test coverage for  [object-hash (v1.1.8)](https://github.com/puleos/object-hash)  [![npm package](https://img.shields.io/npm/v/npmtest-object-hash.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-object-hash) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-object-hash.svg)](https://travis-ci.org/npmtest/node-npmtest-object-hash)
+#### basic test coverage for  [object-hash (v1.1.8)](https://github.com/puleos/object-hash)  [![npm package](https://img.shields.io/npm/v/npmtest-object-hash.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-object-hash) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-object-hash.svg)](https://travis-ci.org/npmtest/node-npmtest-object-hash)
 
 #### Generate hashes from javascript objects in node and the browser.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-object-hash/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-object-hash/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-object-hash/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-object-hash/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-object-hash/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-object-hash/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-object-hash/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-object-hash/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-object-hash/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-object-hash/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-object-hash/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-object-hash/build/coverage.html/index.html)
 
@@ -101,7 +101,8 @@
         "prepublish": "gulp dist",
         "test": "node ./node_modules/.bin/mocha test"
     },
-    "version": "1.1.8"
+    "version": "1.1.8",
+    "bin": {}
 }
 ```
 
